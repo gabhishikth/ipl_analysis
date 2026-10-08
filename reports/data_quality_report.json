@@ -1,0 +1,56 @@
+[
+  {
+    "check": "unique_match_id",
+    "passed": true,
+    "severity": "critical",
+    "detail": ""
+  },
+  {
+    "check": "no_nulls_in_core_columns",
+    "passed": true,
+    "severity": "critical",
+    "detail": ""
+  },
+  {
+    "check": "team1_differs_from_team2",
+    "passed": true,
+    "severity": "critical",
+    "detail": ""
+  },
+  {
+    "check": "toss_winner_is_a_participant",
+    "passed": true,
+    "severity": "critical",
+    "detail": ""
+  },
+  {
+    "check": "winner_is_a_participant",
+    "passed": true,
+    "severity": "critical",
+    "detail": ""
+  },
+  {
+    "check": "toss_decision_valid",
+    "passed": true,
+    "severity": "critical",
+    "detail": ""
+  },
+  {
+    "check": "no_negative_margins",
+    "passed": true,
+    "severity": "critical",
+    "detail": ""
+  },
+  {
+    "check": "one_margin_type_per_normal_match",
+    "passed": true,
+    "severity": "warning",
+    "detail": "super-over / D/L edge cases can break this"
+  },
+  {
+    "check": "team_count_reasonable",
+    "passed": true,
+    "severity": "warning",
+    "detail": "13 teams"
+  }
+]
